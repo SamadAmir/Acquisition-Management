@@ -1,13 +1,14 @@
-Acquisition Management System
+<h1>Acquisition Management System</h1>
 A comprehensive business acquisition and deal management platform built with modern DevOps practices, featuring containerized deployment, automated testing, and enterprise-grade security.
-🚀 Features
+<h2>🚀 Features </h2>
 Core Functionality
 
-Business Listings Management: Create, update, delete, and browse business listings efficiently
-Deal Management: Create deals on listings, accept or reject offers, and track deal status
-User Management: Complete CRUD operations for user accounts with role-based access control
-Authentication & Authorization: JWT-based authentication supporting signup, signin, and signout workflows
-
+<ul>
+<li>Business Listings Management: Create, update, delete, and browse business listings efficiently</li>
+<li>Deal Management: Create deals on listings, accept or reject offers, and track deal status</li>
+<li>User Management: Complete CRUD operations for user accounts with role-based access control</li>
+<li>Authentication & Authorization: JWT-based authentication supporting signup, signin, and signout workflows</li>
+</ul>
 DevOps & Infrastructure
 
 Docker Containerization: Full containerization with separate development and production environments
