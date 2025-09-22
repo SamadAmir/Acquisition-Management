@@ -30,11 +30,13 @@ Core Functionality
 </ul>
 
 <h2>Code Quality</h2>
+<ul>
+  <li>TypeScript-First: Full TypeScript implementation with strict type checking</li>
+  <li>Clean Architecture: Absolute imports with # prefix aliases for organized code structure</li>
+  <li>Code Standards: ESLint and Prettier for consistent code formatting and linting</li>
+  <li>Database Management: Type-safe queries and automated schema migrations with Drizzle ORM</li>
+</ul>
 
-TypeScript-First: Full TypeScript implementation with strict type checking
-Clean Architecture: Absolute imports with # prefix aliases for organized code structure
-Code Standards: ESLint and Prettier for consistent code formatting and linting
-Database Management: Type-safe queries and automated schema migrations with Drizzle ORM
 
 <h2>🛠️ Tech Stack</h2>
 <b>Backend</b>
