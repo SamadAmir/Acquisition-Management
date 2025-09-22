@@ -9,30 +9,35 @@ Core Functionality
 <li>User Management: Complete CRUD operations for user accounts with role-based access control</li>
 <li>Authentication & Authorization: JWT-based authentication supporting signup, signin, and signout workflows</li>
 </ul>
-DevOps & Infrastructure
 
-Docker Containerization: Full containerization with separate development and production environments
-Health Monitoring: System health endpoints for monitoring application status
-Structured Logging: Winston-based logging throughout the application for debugging and monitoring
-Automated Testing: Comprehensive test suite with Jest and SuperTest for unit and integration testing
-Hot Reload: Development server with automatic restart on file changes
+<h2>DevOps & Infrastructure</h2>
 
-Security & Validation
+<ul>
+<li>Docker Containerization: Full containerization with separate development and production environments</li>
+<li>Health Monitoring: System health endpoints for monitoring application status</li>
+<li>Structured Logging: Winston-based logging throughout the application for debugging and monitoring</li>
+<li>Automated Testing: Comprehensive test suite with Jest and SuperTest for unit and integration testing</li>
+<li>Hot Reload: Development server with automatic restart on file changes</li>
+</ul>
 
-Advanced Security: Integrated Arcjet for bot protection, rate limiting, and attack prevention
-Input Validation: Zod schemas for runtime type safety and data validation
-Role-Based Access Control: Admin and user roles with permission middleware
-Secure Authentication: JWT tokens with proper session management
+<h2>Security & Validation</h2>
 
-Code Quality
+<ul>
+<li>Advanced Security: Integrated Arcjet for bot protection, rate limiting, and attack prevention</li>
+<li>Input Validation: Zod schemas for runtime type safety and data validation</li>
+<li>Role-Based Access Control: Admin and user roles with permission middleware</li>
+<li>Secure Authentication: JWT tokens with proper session management</li>
+</ul>
+
+<h2>Code Quality</h2>
 
 TypeScript-First: Full TypeScript implementation with strict type checking
 Clean Architecture: Absolute imports with # prefix aliases for organized code structure
 Code Standards: ESLint and Prettier for consistent code formatting and linting
 Database Management: Type-safe queries and automated schema migrations with Drizzle ORM
 
-🛠️ Tech Stack
-Backend
+<h2>🛠️ Tech Stack</h2>
+<b>Backend</b>
 
 Runtime: Node.js
 Framework: Express.js
@@ -40,13 +45,13 @@ Database: Neon PostgreSQL (Serverless)
 ORM: Drizzle ORM
 Authentication: JSON Web Tokens (JWT)
 
-Security & Validation
+<b>Security & Validation</b>
 
 Security Layer: Arcjet (bot protection, rate limiting, email validation)
 Schema Validation: Zod (TypeScript-first validation)
 Input Sanitization: Express middleware with Zod integration
 
-DevOps & Infrastructure
+<b>DevOps & Infrastructure</b>
 
 Containerization: Docker with multi-stage builds
 Orchestration: Kubernetes ready
@@ -54,7 +59,7 @@ Database: Neon Postgres with autoscaling and branching
 Monitoring: Winston structured logging
 Testing: Jest with SuperTest for API testing
 
-Development Tools
+<b>Development Tools</b>
 
 Terminal: Warp (modern Rust-based terminal)
 Package Manager: npm/yarn
